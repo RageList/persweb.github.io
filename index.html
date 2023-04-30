@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modern 2D Layout Design</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #242424;
+			color: white;
+			display: flex;
+			align-items: center;
+			height: 80px;
+			padding: 0 20px;
+		}
+
+		header h1 {
+			font-size: 28px;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav {
+			background-color: #414141;
+			color: white;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 60px;
+			padding: 0 20px;
+			position: sticky;
+			top: 80px;
+			z-index: 1;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+		}
+
+		nav ul li {
+			margin: 0 10px;
+		}
+
+		nav ul li a {
+			color: white;
+			text-decoration: none;
+			font-size: 16px;
+			padding: 10px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+
+		nav ul li a:hover {
+			background-color: #333333;
+		}
+
+		main {
+			background-color: white;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 20px;
+			margin: 20px;
+			box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+		}
+
+		main h2 {
+			font-size: 24px;
+			margin: 0 0 20px 0;
+			padding: 0;
+		}
+
+		main p {
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0 0 20px 0;
+			padding: 0;
+			text-align: justify;
+		}
+
+		footer {
+			background-color: #242424;
+			color: white;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 60px;
+			padding: 0 20px;
+			position: sticky;
+			bottom: 0;
+		}
+
+		footer p {
+			margin: 0;
+			padding: 0;
+			font-size: 14px;
+		}
+
+		footer ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+		}
+
+		footer ul li {
+			margin: 0 10px;
+		}
+
+		footer ul li a {
+			color: white;
+			text-decoration: none;
+			font-size: 14px;
+			padding: 10px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+
+		footer ul li a:hover {
+			background-color: #333333;
+		}
+	</style>
+</head>
+<body>
+    <header>
+        <h1>Modern 2D Layout Design</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <form>
+            <input type="text" placeholder="Search...">
+            <button type="submit">Go</button>
+        </form>
+    </nav>
+    
+    <main>
+        <h2>Welcome to Our Website</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu metus accumsan, consequat leo a, pellentesque justo. Maecenas aliquet eget tellus at blandit. Suspendisse mollis erat in orci vestibulum, non semper velit pharetra. Vestibulum vitae tellus sed velit eleifend faucibus. Sed in aliquet turpis. Fusce finibus orci nec dolor ultricies, vel pulvinar arcu tristique.</p>
+        <p>Aenean in sagittis diam. Aliquam sit amet arcu sapien. Ut eu ex lobortis, dapibus quam eu, accumsan ex. Nulla lacinia auctor leo sed varius. Suspendisse consectetur lacus euismod aliquet rutrum. Donec accumsan turpis risus, ut iaculis sapien faucibus ut. Aliquam erat volutpat. Fusce quis turpis vel risus aliquam feugiat. Duis et quam sit amet risus malesuada iaculis sed quis massa.</p>
+        <p>Sed auctor aliquet est, in bibendum nulla. Etiam sit amet malesuada lectus, quis interdum lorem. Vivamus efficitur nunc eu lacus luctus, id congue arcu elementum. Praesent blandit finibus risus quis semper. Donec eu tristique nisi. Vestibulum bibendum nunc magna, non pretium neque auctor at. Donec id dui id justo fringilla suscipit sed vel lectus.</p>
+    </main>
+    
+    <footer>
+        <p>Copyright &copy; 2023</p>
+        <ul>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </footer>
+      </body>
+      </html>
+      
